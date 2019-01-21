@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
 
-        stage('testing pipeline'){
+        stage('Stagging'){
           steps{
 		    echo 'test1'
                 sh 'mkdir from-jenkins'
